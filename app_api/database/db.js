@@ -9,10 +9,9 @@ mongoose.set("useUnifiedTopology", true);
 const connect = () => {
   setTimeout(
     () =>
-      mongoose.connect(dbURI,  { 
+      mongoose.connect(dbURI, {
         useNewUrlParser: true,
         useCreateIndex: true,
-        useUnifiedTopology: true,
       }),
     1000
   );
