@@ -1,8 +1,6 @@
-
-const index = (req,res) => {
-    res.render('index', {title: "Travlr Getaways"});
-    };
-
-    module.exports = {
-        index
-    }
+const index = (req, res) => {
+  res.render("index", { title: "Travlr Getaways" });
+};
+module.exports = {
+  index,
+};
